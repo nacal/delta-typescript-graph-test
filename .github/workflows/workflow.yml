@@ -11,3 +11,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - uses: ysk8hori/delta-typescript-graph-action@v1.0.5
+        with:
+          tsconfig-root: './my-app'
